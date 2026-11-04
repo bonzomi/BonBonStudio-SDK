@@ -1,0 +1,15 @@
+{
+  "name": "dev.bonbonstudio.sdk",
+  "version": "1.0.0",
+  "displayName": "BonBonStudio SDK",
+  "description": "SDK for the software BonStudio",
+  "unity": "2022.3",
+  "keywords": [],
+  "license": "MIT",
+  "author": {
+    "name": "Bonzomi",
+    "url": "https://www.bonzomi.net/",
+    "email": "mail@bonzomi.net"
+  },
+  "dependencies": {}
+}
