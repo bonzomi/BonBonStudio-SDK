@@ -1,14 +1,15 @@
 # BonBonStudio SDK
 
-Tools for making characters for [BonStudio](https://www.bonzomi.net/) in Unity. Set your content
-up with BonStudio's components, export it from the BonStudio SDK menu, and load the exported file into BonStudio.
+Tools for making characters for [BonBonStudio](https://www.bonzomi.net/) in Unity. Set your content
+up with BonBonStudio's components, export it from the BonBonStudio SDK menu, and load the exported file into BonBonStudio.
 
-> BonStudio and the BonStudio SDK are not affiliated with, endorsed by or supported by VRChat Inc.
+> BonBonStudio and the BonBonStudio SDK are not affiliated with, endorsed by or supported by VRChat Inc.
 
 ## Requirements
 
 - Unity 2022.3 or later
 - URP is supported but not required, NiloToon and PotaToon are both supported.
+- XR Plug-in Management and OpenXR, installed with the SDK.
 
 ## Installing
 
@@ -18,9 +19,9 @@ up with BonStudio's components, export it from the BonStudio SDK menu, and load 
 ## Characters
 
 1. Put your model in a scene.
-2. Open **BonStudio SDK > Export Character Model**, pick the model and export.
+2. Open **BonBonStudio SDK > Export Character Model**, pick the model and export.
    - The first export adds a **Model Info** component holding the model's ID, title and description. Keep it on the
-     model: BonStudio uses the ID to recognise the model across exports and renames.
+     model: BonBonStudio uses the ID to recognise the model across exports and renames.
    - For humanoid models the window checks whether the bones are normalized (all sharing the model's orientation).
      If they aren't, **Normalize Bones on Export** normalizes them in the exported file, after Modular Avatar has run.
      The scene isn't changed, and animations of bones and objects under the armature are pointed at where they moved.
@@ -32,7 +33,7 @@ materials are locked. EditorOnly objects are left out.
 
 ## Helpers
 
-Under **BonStudio SDK > Helpers**:
+Under **BonBonStudio SDK > Helpers**:
 
 - **Avatar Merger**: bakes outfits into a base avatar on copies, like Modular Avatar's Merge Armature followed by a
   manual bake.

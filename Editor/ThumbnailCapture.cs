@@ -5,7 +5,7 @@ using UnityEngine;
 namespace BonV.Editor
 {
     /// <summary>
-    /// Renders square thumbnails from a scene camera. BonStudio lists a bundle with the image of the same name next to it,
+    /// Renders square thumbnails from a scene camera. BonBonStudio lists a bundle with the image of the same name next to it,
     /// such as AbstractEcho2.png beside AbstractEcho2.vss.
     /// </summary>
     public static class ThumbnailCapture

@@ -3,7 +3,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace BonStudio.SDK.Characters
+namespace BonBonStudio.SDK.Characters
 {
     /// <summary>
     /// Normalizes the exported copy's bones when its Model Info asks for it. Runs after Modular Avatar, which needs the
@@ -20,7 +20,7 @@ namespace BonStudio.SDK.Characters
         // After Modular Avatar (-11000) and EditorOnly stripping (-1024), before Poiyomi locks materials (100)
         public int callbackOrder => 0;
 
-        const string TempRoot = "Assets/ZZZ_GeneratedAssets/BonStudioExport";
+        const string TempRoot = "Assets/ZZZ_GeneratedAssets/BonBonStudioExport";
 
         public bool OnPreprocessCharacter(GameObject character)
         {

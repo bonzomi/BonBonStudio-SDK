@@ -1,13 +1,13 @@
 using UnityEngine;
 
-namespace BonStudio.SDK.Characters
+namespace BonBonStudio.SDK.Characters
 {
     /// <summary>
-    /// What BonStudio knows an exported model by. Saved on the character, so it's in version control, the same on every
+    /// What BonBonStudio knows an exported model by. Saved on the character, so it's in version control, the same on every
     /// machine and inside the bundle. The Export Character Model window adds it on the first export and edits it.
     /// </summary>
     [DisallowMultipleComponent]
-    [AddComponentMenu("BonStudio/Model Info")]
+    [AddComponentMenu("BonBonStudio/Model Info")]
     public class ModelInfo : MonoBehaviour
     {
         [Tooltip("A UUID made on the first export. It stays the same through renames, so the app can tell it's the same model.")]

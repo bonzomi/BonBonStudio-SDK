@@ -5,7 +5,7 @@ using UnityEngine.Rendering;
 namespace BonV.Editor
 {
     /// <summary>
-    /// The render pipeline an exported bundle is tagged with, so BonStudio can tell what it's made for. It follows the project's
+    /// The render pipeline an exported bundle is tagged with, so BonBonStudio can tell what it's made for. It follows the project's
     /// pipeline, which says nothing of the shaders in the bundle, so the export windows can override it.
     /// </summary>
     public static class BundleRenderPipeline

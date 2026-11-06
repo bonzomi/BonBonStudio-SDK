@@ -9,7 +9,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Object = UnityEngine.Object;
 
-namespace BonStudio.SDK.Characters
+namespace BonBonStudio.SDK.Characters
 {
     // Runs on a copy of the character just before it's bundled, like VRChat's IVRCSDKPreprocessAvatarCallback, so tools can
     // rewrite what gets exported without touching the scene. Lowest callbackOrder runs first; return false to cancel the export.

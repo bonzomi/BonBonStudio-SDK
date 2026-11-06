@@ -44,7 +44,7 @@ public class BoneNormalizer : EditorWindow
     bool hideOriginal = true;
     string outputFolder = DefaultOutputFolder;
 
-    [MenuItem("BonStudio SDK/Helpers/Bone Normalizer")]
+    [MenuItem("BonBonStudio SDK/Helpers/Bone Normalizer")]
     static void Open()
     {
         var window = GetWindow<BoneNormalizer>("Bone Normalizer");

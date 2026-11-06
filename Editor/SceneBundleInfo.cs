@@ -7,7 +7,7 @@ using UnityEngine;
 namespace BonV.Editor
 {
     /// <summary>
-    /// What BonStudio shows for an exported scene, written as a .json named like the bundle beside it, the way the
+    /// What BonBonStudio shows for an exported scene, written as a .json named like the bundle beside it, the way the
     /// thumbnail is. The publish script copies it into the bucket's index.json.
     /// </summary>
     [Serializable]

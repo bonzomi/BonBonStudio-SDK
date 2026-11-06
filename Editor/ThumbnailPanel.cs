@@ -645,7 +645,7 @@ namespace BonV.Editor
         }
 
         /// <summary>
-        /// BonStudio lists a bundle with the image of the same name beside it, so each export gets the saved thumbnail, or
+        /// BonBonStudio lists a bundle with the image of the same name beside it, so each export gets the saved thumbnail, or
         /// else the preview rendered before the build.
         /// </summary>
         public void ExportThumbnail(string bundlePath, byte[] preview)

@@ -1,9 +1,9 @@
 using System;
 using UnityEngine;
 
-namespace BonStudio.SDK.Characters.Runtime
+namespace BonBonStudio.SDK.Characters.Runtime
 {
-// Inspector layout is handled by ExpressionDrawer in BonStudio.SDK.Characters.Editor
+// Inspector layout is handled by ExpressionDrawer in BonBonStudio.SDK.Characters.Editor
 [Serializable]
 public class Expression
 {

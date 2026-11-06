@@ -1,6 +1,6 @@
 using System;
 using System.IO;
-using BonStudio.SDK.Characters;
+using BonBonStudio.SDK.Characters;
 using UnityEditor;
 using UnityEngine;
 using Object = UnityEngine.Object;

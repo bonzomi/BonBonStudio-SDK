@@ -1,4 +1,4 @@
-using BonStudio.SDK.Characters.Runtime;
+using BonBonStudio.SDK.Characters.Runtime;
 using UnityEditor;
 using UnityEngine;
 

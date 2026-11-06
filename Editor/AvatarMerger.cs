@@ -35,7 +35,7 @@ public class MergeArmature : EditorWindow
     SerializedObject serializedWindow;
     Vector2 scroll;
 
-    [MenuItem("BonStudio SDK/Helpers/Avatar Merger")]
+    [MenuItem("BonBonStudio SDK/Helpers/Avatar Merger")]
     static void Open()
     {
         var window = GetWindow<MergeArmature>("Avatar Merger");

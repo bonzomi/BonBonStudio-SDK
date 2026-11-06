@@ -1,8 +1,13 @@
 {
-    "name": "BonStudio.SDK.Characters.Runtime",
+    "name": "BonBonStudio.SDK.Characters.Editor",
     "rootNamespace": "",
-    "references": [],
-    "includePlatforms": [],
+    "references": [
+        "GUID:4be46a3d3c1e62544bf2546e3de3671a",
+        "GUID:a5c96c257ee91b64c96610ad73a4d646"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

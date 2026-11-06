@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace BonStudio.SDK.Characters.Runtime
+namespace BonBonStudio.SDK.Characters.Runtime
 {
-    [CreateAssetMenu(fileName = "DefaultExpressions", menuName = "BonStudio/ExpressionMenu", order = 1)]
+    [CreateAssetMenu(fileName = "DefaultExpressions", menuName = "BonBonStudio/ExpressionMenu", order = 1)]
     public class ExpressionMenu : ScriptableObject
     {
         public List<Expression> expressions;

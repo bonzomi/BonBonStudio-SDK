@@ -1,7 +1,7 @@
 using UnityEditor;
 using System;
 using System.Collections.Generic;
-using BonStudio.SDK.Characters;
+using BonBonStudio.SDK.Characters;
 using BonV.Editor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
@@ -29,7 +29,7 @@ public class CharacterBuilderWindow : EditorWindow
     private bool publishAfterExport;
     private bool fileNameExpanded;
     private string lastBundleName;
-    private const string PrefsPrefix = "BonStudio.CharacterBuilder.";
+    private const string PrefsPrefix = "BonBonStudio.CharacterBuilder.";
 
     private void OnEnable()
     {
@@ -88,7 +88,7 @@ public class CharacterBuilderWindow : EditorWindow
         return (new Pose(center + forward * distance, Quaternion.LookRotation(-forward, Vector3.up)), FrameFieldOfView);
     }
 
-    [MenuItem("BonStudio SDK/Export Character Model")]
+    [MenuItem("BonBonStudio SDK/Export Character Model")]
     public static void OpenCharacterWindow()
     {
         var window = (CharacterBuilderWindow)GetWindow(typeof(CharacterBuilderWindow),true,"Character Model Setup");
